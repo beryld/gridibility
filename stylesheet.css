@@ -58,40 +58,41 @@ aside {
   grid-area: aside;
 }
 @media only screen and (max-width: 768px) {
-    #holygrail-container {
-        display: grid;
-        /* grid-template-rows: 72px 72px 72px 72px 72px; */
-        grid:
-          "header header header" 72px
-          "nav" 72px
-          "main" 1fr
-          "aside"72px
-          "footer footer footer" 72px
-          / 162px 162px 1fr 162px 162px ;
-          background: linear-gradient(to left, #eecfcf, #dce9e1);
-  height: 100%;
-  min-width: 100vw;
-  min-height: 270px;
-    }
-    header {
-        grid-area: 1 ;
-        width: 100vw;
-      }
-      footer {
-        grid-area: 2 ;
-        width: 100vw;
-      }
-      nav {
-        grid-area: 3 ;
-        width: 100vw;
-      }
-      main {
-        grid-area: 4 ;
-        width: 100vw;
-      }
-      aside {
-        grid-area: 5 ;
-        width: 100vw;
-      }
-
+  #holygrail-container {
+    display: grid;
+    /* grid-template-rows: 72px 72px 72px 72px 72px; */
+    grid:
+      "header header header" 72px
+      "nav" 72px
+      "main" 1fr
+      "aside" 72px
+      "footer footer footer" 72px
+      / 162px 162px 1fr 162px 162px;
+    background: linear-gradient(to left, #eecfcf, #dce9e1);
+    height: 100%;
+    min-width: 100vw;
+    min-height: 270px;
+  }
+  header {
+    grid-area: 1;
+    width: 100vw;
+  }
+  footer {
+    grid-area: 2;
+    width: 100vw;
+  }
+  nav {
+    grid-area: 3;
+    width: 100vw;
+  }
+  main {
+    grid-area: 4;
+    width: 100vw;
+  }
+  aside {
+    grid-area: 5;
+    width: 100vw;
+  }
 }
+
+
